@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan - Kurcaci Kafe</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="coffee.png" alt="" width="50" height="50">
+            <h1>Kurcaci Coffee</h1>
+        </div>
+    </header>
+    <main>
+        <section class="order-section">
+            <center><h1>Formulir Pemesanan</h1></center>
+            <form action="pemesanan oke.html" method="post">
+                
+ 
+                <label for="menu">Menu Pilihan:</label>
+                <select id="menu" name="menu" required>
+                    <option value="">Pilih Menu</option>
+                    <option value="Kopi Latte">Kopi Latte - Rp. 20.000</option>
+                    <option value="Caramel Machiato">Caramel Machiato - Rp. 25.000</option>
+                    <option value="Ice Redvelvet">Ice Redvelvet - Rp. 30.000</option>
+                    <option value="Ice Chocolatte">Ice Chocolatte - Rp. 30.000</option>
+                    <option value="Mocachino">Mocachino - Rp. 25.000</option>
+                    <option value="Chocolate Fondue">Chocolate Fondue - Rp. 65.000</option>
+                    <option value="Ice Cream Sandwhich">Ice Cream Sandwhich - Rp. 58.000</option>
+                    <option value="Cake Matcha & Chocolate Melting">Cake Matcha & Chocolate Melting - Rp. 70.000</option>
+                    <option value="Strawberry Shortcake">Strawberry Shortcake - Rp. 80.000</option>
+                    <option value="Banana Crunch">Banana Crunch - Rp. 58.000</option>
+                </select>
+
+                <label for="jumlah">Jumlah Pesanan:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" required>
+ 
+                <button type="submit" class="cta-button">Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <style>
+
+body{
+			font-family: Arial, sans-serif;
+            background-color: #909090;
+			margin: 0;
+    padding: 0;
+		}
+		header {
+        background-color: #333;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    main{
+        padding: 5 auto;
+    }
+
+.order-section {
+            background-color: white;
+            padding: 50px;
+            border-radius: 50px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        }
+
+        .order-section h1 {
+            margin-bottom: 30px;
+        }
+
+        .order-section label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .order-section input,
+        .order-section select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .order-section button {
+            background-color: #333;
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .order-section button:hover {
+            background-color: #555;
+        }
+
+    </style>
+
+</body>
+</html>

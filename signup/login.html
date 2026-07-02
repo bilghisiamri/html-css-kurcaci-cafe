@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Kurcaci Kafe</title>
+</head>
+<body>
+	<header>
+		<div class="header-left">
+			<img src="coffee.png" alt="" width="50" height="50">
+			<h1>Kurcaci Coffee</h1>
+		</div>
+	</header>
+	<main>
+		<section class="form-section">
+			<h2>Login</h2>
+			<form action="/submit_login" method="post">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>       
+ 
+				<label for="password">Kata Sandi:</label>
+				<input type="password" id="password" name="password" required>
+ 
+				<button type="submit" class="cta-button"> <a href="home.html"> Login </a></button>
+			</form>
+			<center><p>Belum punya akun? <a href="sign up.html">Daftar disini</a></p></center>
+			
+		</section>
+	</main>
+
+	<style>
+		body {
+            font-family: Arial, sans-serif;
+            background-color: #909090;
+            margin: 0;
+    padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+        }
+
+        main {
+            padding: 70px;
+        }
+
+        .form-section {
+            background-color: white;
+            padding: 50px;
+            border-radius: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-section h2 {
+            margin-bottom: 50px;
+        }
+
+        .form-section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #504848;
+            border-radius: 3px;
+        }
+
+        .form-section .cta-button {
+            background-color: #504848;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .form-section .cta-button:hover {
+            background-color: #504848;
+        }
+
+        .form-section p {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .form-section p a {
+            color: #725628;
+            text-decoration: none;
+        }
+
+        .form-section p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>

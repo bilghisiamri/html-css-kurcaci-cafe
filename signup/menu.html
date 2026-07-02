@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Kurcaci Kafe</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="coffee.png" alt="" width="50" height="50">
+            <h1>Kurcaci Coffee</h1>
+        </div>
+    </header>
+    <main>
+        <section class="menu-section">
+            <center><h1>Menu Kurcaci Coffee</h1></center>
+            <div class="menu-category">
+                <h2>Minuman</h2>
+
+                <div class="menu-item">
+                    <img src="kopi latte.jpg" alt="Minuman 1">
+                    <div class="menu-info">
+                        <h3>Kopi Latte</h3>
+                        <p>Rp. 20.000</p>
+                        <p>Kopi dengan susu steamed dan lapisan busa kental.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="caramel machiatto.jpg" alt="Minuman 2">
+                    <div class="menu-info">
+                        <h3>Caramel Machiato</h3>
+                        <p>Rp. 25.000</p>
+                        <p>Espresso dengan susu steamed dan sirup karamel.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="ice Redvelvet.jpg" alt="Minuman 2">
+                    <div class="menu-info">
+                        <h3>Ice Redvelvet</h3>
+                        <p>Rp. 30.000</p>
+                        <p>Espresso dengan susu dan sirup red velvet, dihidangkan dingin.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="ice coklat.jpg" alt="Minuman 2">
+                    <div class="menu-info">
+                        <h3>Ice Chocolatte</h3>
+                        <p>Rp. 30.000</p>
+                        <p>Kopi dingin dengan susu dan sirup cokelat, disajikan dengan es batu.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="mocacino.jpg" alt="Minuman 2">
+                    <div class="menu-info">
+                        <h3>Mocachino</h3>
+                        <p>Rp. 25.000</p>
+                        <p>Espresso dengan susu steamed dan cokelat bubuk, dihiasi whipped cream.</p>
+                    </div>
+                </div>
+            
+
+            <div class="menu-category">
+                <h2>Makanan Ringan</h2>
+
+                <div class="menu-item">
+                    <img src="Chocolate fondue.jpg" alt="Makanan 1">
+                    <div class="menu-info">
+                        <h3>Chocolate Fondue</h3>
+                        <p>Rp. 65.000</p>
+                        <p>Potongan buah segar dan marshmallow disajikan dengan cokelat leleh</p>
+					</div>
+				</div> 
+
+                <div class="menu-item">
+                    <img src="Ice cream sandwhich.jpg" alt="Makanan 1">
+                    <div class="menu-info">
+                        <h3>Ice Cream Sandwhich</h3>
+                        <p>Rp. 58.000</p>
+                        <p>Es krim vanila diapit di antara dua cookies lembut.</p>
+					</div>
+				</div>
+
+                <div class="menu-item">
+                    <img src="Matcha and Chocolate Melting.jpg" alt="Makanan 1">
+                    <div class="menu-info">
+                        <h3>Cake Matcha & Chocolate Melting</h3>
+                        <p>Rp. 70.000</p>
+                        <p>Kue campuran matcha dan cokelat yang lembut dan meleleh.</p>
+					</div>
+				</div>
+
+                <div class="menu-item">
+                    <img src="Strawberry shortcake.jpg" alt="Makanan 1">
+                    <div class="menu-info">
+                        <h3>Strawberry Shortcake</h3>
+                        <p>Rp. 80.000</p>
+                        <p>Kue lembut dengan potongan stroberi segar dan whipped cream.</p>
+					</div>
+				</div>
+
+                <div class="menu-item">
+                    <img src="Cocao Toffe Banana Crunch.jpg" alt="Makanan 1">
+                    <div class="menu-info">
+                        <h3>Banana Crunch</h3>
+                        <p>Rp. 58.000</p>
+                        <p>Pisang dipadu dengan karamel cokelat dan taburan toffee.</p>
+					</div>
+					<div class="order-button">
+						<a href="pemesanan.html" class="cta-button">Pesan Sekarang</a>
+					</div>
+				</div>
+
+				<style>
+					
+					body {
+    font-family: Arial, sans-serif;
+    background-color: #909090;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+	text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+  
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-category {
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+	max-width: 600px;
+	margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-info {
+    flex: 1;
+}
+
+.menu-info h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.menu-info p {
+    margin: 0;
+    color: #666;
+}
+.order-button {
+            text-align: center;
+            margin-top: 190px;
+        }
+
+        .order-button .cta-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .order-button .cta-button:hover {
+            background-color: #555;
+        }
+				</style>
+
+
+		</section>
+	</main>
+</body>
+</html>
